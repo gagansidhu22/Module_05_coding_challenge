@@ -1,5 +1,5 @@
 import express, { Express, Request, Response } from "express";
-import moderationRoutes from "./api/v1/routes/moderationRoutes";
+import moderationRoutes from "../src/v1/routes/moderationRoutes";
 
 const app: Express = express();
 app.use(express.json());
